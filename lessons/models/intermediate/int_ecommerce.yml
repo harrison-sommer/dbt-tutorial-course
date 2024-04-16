@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: int_ecommerce__order_items_products
+    description: ""
+    columns:
+      - name: order_item_id
+        description: ""
+        tests:
+          - not_null
+          - unique
+
+      - name: order_id
+        description: ""
+
+      - &user_id
+        name: user_id
+        description: ""
+
+      - name: product_id
+        description: ""
+
+      - name: sale_price
+        description: ""
+
+      - name: product_department
+        description: ""
+
+      - name: product_cost
+        description: ""
+
+      - name: product_retail_price
+        description: ""
+
+      - name: item_profit
+        description: ""
+
+      - name: item_discount
+        description: ""
